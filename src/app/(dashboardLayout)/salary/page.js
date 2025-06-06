@@ -37,7 +37,7 @@ const people = [
         status: "Paid",
     }
 ];
-const page = () => {
+const Page = () => {
     const [search, setSearch] = useState("");
 
     return (
@@ -231,4 +231,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default Page;

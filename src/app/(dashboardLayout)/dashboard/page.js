@@ -71,7 +71,7 @@ const applicants = [
         year: "12 Dec 2024 - 10 May 2025 ",
     },
 ];
-const page = () => {
+const Page = () => {
     return (
         <div className="p-4 space-y-6">
             {/* Top section*/}
@@ -293,4 +293,4 @@ const ApplicationCard = ({
         </div>
     );
 };
-export default page;
+export default Page;

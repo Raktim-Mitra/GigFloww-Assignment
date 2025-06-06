@@ -1,6 +1,6 @@
 import React from "react";
 
-const page = () => {
+const Page = () => {
     return (
         <div className="p-4 space-y-6 flex flex-col">
             <div className="flex flex-col justify-between ">
@@ -228,4 +228,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default Page;

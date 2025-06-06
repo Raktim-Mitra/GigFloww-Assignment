@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import React, { useState } from "react";
 import { HiEye, HiEyeOff } from "react-icons/hi";
-const page = () => {
+const Page = () => {
     const router = useRouter();
     const [showPassword, setShowPassword] = useState(false);
     const handleSubmit = (e) => {
@@ -125,4 +125,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default Page;

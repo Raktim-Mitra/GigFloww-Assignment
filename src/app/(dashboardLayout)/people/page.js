@@ -49,7 +49,7 @@ const people = [
     },
 ];
 
-const page = () => {
+const Page = () => {
     const [search, setSearch] = useState("");
     return (
         <div className="p-4 space-y-6">
@@ -189,4 +189,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default Page;
