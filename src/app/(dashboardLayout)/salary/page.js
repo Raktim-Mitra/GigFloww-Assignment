@@ -6,7 +6,7 @@ import { HiChevronDown } from "react-icons/hi";
 const people = [
     {
         name: "Alicia Shankur",
-        email: "Alicia Shankur@GMAIL.COM",
+        email: "alicia shankur@gmail.com",
         jobTitle: "Software Engineer",
         department: "Engineering",
         salary: "$2,500",
@@ -22,8 +22,8 @@ const people = [
     },
     {
         name: "Aresen Vlamadir",
-        email: "darioberik@gmail.com",
-        jobTitle: "Sales Manager",
+        email: "darioberik@yahoo.com",
+        jobTitle: "Sales Manager", 
         department: "Product",
         salary: "$4,700",
         status: "Pending",
@@ -35,8 +35,33 @@ const people = [
         department: "Content",
         salary: "$2,000",
         status: "Paid",
+    },
+    {
+        name: "Diti Shreyas",
+        email: "ditishreyas@gmail.com",
+        jobTitle: "Backend Engineer",
+        department: "Engineering",
+        salary: "$2,500",
+        status: "Paid",
+    },
+    {
+        name: "Alicia Shankur",
+        email: "alicia shankur@gmail.com",
+        jobTitle: "Product Manager",
+        department: "Product",
+        salary: "$4,000", 
+        status: "Pending",
+    },
+    {
+        name: "Dario Berik",
+        email: "darioberik@yahoo.com",
+        jobTitle: "Software Engineer",
+        department: "Engineering",
+        salary: "$1,900",
+        status: "Paid",
     }
 ];
+
 const Page = () => {
     const [search, setSearch] = useState("");
 
@@ -157,7 +182,7 @@ const Page = () => {
                                 </div>
                             </div>
 
-                            {/* Details */}
+                           
                             <div className="pt-14 pb-4 px-4 text-center">
                                 <p className="text-lg font-semibold">
                                     Elizabeth James

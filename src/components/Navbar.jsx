@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import Image from "next/image";
 import { FiSettings, FiBell } from "react-icons/fi";
 
@@ -39,11 +39,12 @@ const Navbar = () => {
     const activeItem = NAV_ITEMS.find((item) => pathname.startsWith(item.path));
     const bgColor = activeItem?.color || "bg-gray-100";
 
+    const router = useRouter();
     return (
         <nav
             className={`w-full h-16 flex items-center justify-between px-6 ${bgColor}`}
         >
-            <div className="flex items-center">
+            <div className="flex items-center" onClick={() => {router.push("/dashboard")}}>
                 <Image src="/logo2.png" alt="Logo" width={180} height={120} />
             </div>
             <ul className="flex space-x-4 text-md font-medium">

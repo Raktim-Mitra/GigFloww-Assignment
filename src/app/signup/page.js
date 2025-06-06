@@ -106,7 +106,7 @@ const Page = () => {
 
                     <button
                         type="submit"
-                        className="w-full bg-[linear-gradient(to_right,_#2784B8,_#2784B8)] mt-2 text-white py-2 rounded-md hover:bg-blue-700"
+                        className="w-full bg-[linear-gradient(to_right,_#2784B8,_#2784B8)] mt-2 text-white py-2 rounded-md hover:bg-blue-700 cursor-pointer"
                     >
                         Register
                     </button>

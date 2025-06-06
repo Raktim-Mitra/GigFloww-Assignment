@@ -9,7 +9,7 @@ import { FiSearch } from "react-icons/fi";
 const people = [
     {
         name: "Alicia Shankur",
-        email: "Alicia Shankur@gmail.COM",
+        email: "alicia shankur@gmail.com",
         jobTitle: "Software Engineer",
         department: "Engineering",
         salary: "$2,500",
@@ -19,7 +19,7 @@ const people = [
     },
     {
         name: "James Oyinkan",
-        email: "abc@gmail.com",
+        email: "jamesoyinkan@gmail.com",
         jobTitle: "Visual Designer",
         department: "Design",
         salary: "$2,000",
@@ -29,7 +29,7 @@ const people = [
     },
     {
         name: "Diti Shreyas",
-        email: "abc@gmail.com",
+        email: "ditishreyas@gmail.com",
         jobTitle: "Visual Designer",
         department: "Design",
         salary: "$2,000",
@@ -38,16 +38,57 @@ const people = [
         status: "Inactive",
     },
     {
-        name: "Kito Ashuth",
-        email: "abc@gmail.com",
+        name: "Ishita Bhatgnar",
+        email: "ishitadgirl67@gmail.com",
         jobTitle: "UI/UX Designer",
         department: "Design",
-        salary: "$1,000",
-        startDate: "Dec 09, 2024",
+        salary: "$1,500",
+        startDate: "Jan 09, 2024",
         lifeCycle: "Employed",
         status: "Active",
     },
+    {
+        name: "Kito Ashuth",
+        email: "asthutor@gmail.com",
+        jobTitle: "Content Writer",
+        department: "Content",
+        salary: "$1,000",
+        startDate: "Jan 09, 2024",
+        lifeCycle: "Hired",
+        status: "Active",
+    },
+    {
+        name: "Dario Berik",
+        email: "darioberik@yahoo.com",
+        jobTitle: "Sales Manager",
+        department: "Operation",
+        salary: "$4,000",
+        startDate: "Feb 21, 2022",
+        lifeCycle: "Hired",
+        status: "Active",
+    },
+    {
+        name: "Aresen Vlamadir",
+        email: "darioberik@yahoo.com",
+        jobTitle: "Mobile Assistant",
+        department: "Product",
+        salary: "$3,000",
+        startDate: "Aug 07, 2022",
+        lifeCycle: "Employed",
+        status: "Inactive",
+    },
+    {
+        name: "Debby Philade",
+        email: "debbythegreat@gmail.com",
+        jobTitle: "Product Manager",
+        department: "Product",
+        salary: "$4,500",
+        startDate: "Apr 02, 2022",
+        lifeCycle: "Hired",
+        status: "Active",
+    }
 ];
+
 
 const Page = () => {
     const [search, setSearch] = useState("");
