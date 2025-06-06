@@ -32,7 +32,7 @@ const Page = () => {
                             </label>
                             <input
                                 type="text"
-                                placeholder="Enter reired skill(s)"
+                                placeholder="Enter required skill(s)"
                                 className="mt-1 w-full px-4 py-2 border rounded-md outline-none border-none shadow-sm"
                             />
                         </div>
