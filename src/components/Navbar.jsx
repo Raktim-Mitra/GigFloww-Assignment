@@ -44,7 +44,12 @@ const Navbar = () => {
         <nav
             className={`w-full h-16 flex items-center justify-between px-6 ${bgColor}`}
         >
-            <div className="flex items-center" onClick={() => {router.push("/dashboard")}}>
+            <div
+                className="flex items-center"
+                onClick={() => {
+                    router.push("/dashboard");
+                }}
+            >
                 <Image src="/logo2.png" alt="Logo" width={180} height={120} />
             </div>
             <ul className="flex space-x-4 text-md font-medium">
@@ -68,7 +73,12 @@ const Navbar = () => {
             </ul>
 
             <div className="flex items-center space-x-6">
-                <FiBell className="text-xl text-white hover:text-blue-200 cursor-pointer" />
+                <div className="relative">
+                    <FiBell className="text-xl text-white hover:text-blue-200 cursor-pointer" />
+                    <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs w-3 h-3 flex items-center justify-center rounded-full">
+                        4
+                    </span>
+                </div>
                 <FiSettings className="text-xl text-white hover:text-blue-200 cursor-pointer" />
                 <div className="w-px h-15 bg-black" />
                 <div>
